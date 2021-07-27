@@ -1,1 +1,5 @@
 The solution is:
+
+
+Light up both the ends of one string and only one end of the other string. The first string will burn in 30 seconds. When the first string has completely burnt,
+light up the other end of the second string. The remaining portion of the second string will burn in 15 seconds and hence in total, we will measure 45 seconds.
