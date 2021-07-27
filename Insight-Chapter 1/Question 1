@@ -1,1 +1,17 @@
 The solution is:
+
+Approach 1:
+Maybe there is an Inductive proof.
+
+We start with the base case of n = 2.
+Let P(n) :- Alice is able to gurantee an acquisition of coins with sum greater than equal to that acquired by Bob for n(which is even) number of coins.
+
+  Clearly, P(n = 2) is True, as Alice can always pickup the greater denomination coin. In case both the coins have equal denomination, P(n) still holds true.
+  
+  Assume that P(n = 4) and so on till P(n = k - 2) is True. We now try to prove that P(n = k) is True.
+  
+  
+  
+
+Approach 2:
+Alice can pick all the odd indexed coins or all the even indexed coins. Either way, she can gurantee a greater than equal to sum.
