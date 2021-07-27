@@ -1,0 +1,15 @@
+The solution is:
+
+Let the gas stations with their gas amounts be g1 , g2 , g3 ... gn. Let the amount of gas needed to go from station 1->2, 2->3 ... n->1 be a1, a2,... an.
+Note that by the constraints of the question: g1 + g2 + g3 .. + gn = a1 + a2 + a3 ... an 
+Also, we need g1 >= a1 , because the car starts with 0 gas at the starting station and needs to reach the station 2 to complete its journey.
+Similarly, (g1 - a1) + g2 >= a2 , so that the car can reach station 3.
+And so on we will have (n - 1) inequalities, with the last one being: (g1 - a1) + (g2 - a2) ... + g[n-1] >= a[n-1]
+From the last inequality and the equation mentioned at the start, we have: an >= gn
+
+So, the starting gas station can be found in with these following constraints: The first station must have enough gas to reach the second station and the last
+station must have gas which is less than or equal to an, i.e, the gas required to reach from station n to station 1.
+
+I beileve this is a rigorous enough way to find out the starting point. The 2 inequalities give us much information to choose a starting point. Also, we can use
+all the inequalities to check for a starting point. The inequalities basically say that the partial sums have to be non-negative. But I dont think we will need
+all the inequalities. The 1st and the last inequalities are itself a differentiating factor.
