@@ -1,1 +1,8 @@
 The solution is:
+
+
+Turn on switch 1 and wait for a few minutes. Then turn off switch 1 and turn on switch 2.
+
+Case 1: If the buld is on and is cold -> It was switch 2.
+Case 2: If the bulb is off and is hot -> It was switch 1.
+Case 3: If the bulb is off and cold -> It was switch 3.
